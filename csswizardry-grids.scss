@@ -232,7 +232,8 @@ $class-type: if($use-silent-classes, unquote("%"), unquote("."));
     padding:0;                      /* [2] */
     margin-left:-$gutter;           /* [3] */
     display: flex;
-    
+    flex-wrap: wrap;
+
     @if not $use-markup-fix {
         letter-spacing:-0.31em;
     }
